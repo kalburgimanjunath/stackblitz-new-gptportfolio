@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: black;
+  background-color: white;
+}
+.container {
+  font-size: medium;
+  font-weight: 400;
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: pink;
+}
+.header div {
+  padding: 20px 10px;
+}
+.header div a {
+  color: black;
+  font-weight: bold;
+}
+.header div a:hover {
+  color: gray;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+}
+.cards div {
+  padding: 10px;
+}
