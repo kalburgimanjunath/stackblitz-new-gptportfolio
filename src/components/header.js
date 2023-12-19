@@ -20,7 +20,7 @@ export default function Header() {
       {menu &&
         menu.map((item) => {
           return (
-            <div>
+            <div key={item.title}>
               <Link to={item.link}>{item.title}</Link>
             </div>
           );

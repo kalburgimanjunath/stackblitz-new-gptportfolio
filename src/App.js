@@ -7,6 +7,7 @@ export default function App() {
   return (
     <div className="container">
       <Header />
+      <div className='main'>
       <Routes>
       <Route path="/blog" element={<Blog />} />
       <Route path="/testimonals" element={<Testimonials />} />
@@ -15,8 +16,9 @@ export default function App() {
       <Route path="/contact" element={<Contact />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/about" element={<About />} />
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/*" element={<Home />} />
       </Routes>
+      </div>
     </div>
   );
 }

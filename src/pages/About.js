@@ -22,7 +22,7 @@ export default function About() {
   { title: 'figma'},{title:'express'},{title:'bootstrap'},{title:'materialui'},
   {title:'babel'},
   {title:'docker'} ]
-  const newskills = [{title:'gatsby'},{title:'nuxtjs'},{title:'kubernetes'},{title:'styled-components'}]
+  const newskills = [{title:'gatsby'},{title:'nuxtjs'},{title:'kubernetes'},{title:'styledcomponents'}]
   return (
     <div>
       <h3>About Me</h3>

@@ -12,10 +12,21 @@ body {
   font-size: medium;
   font-weight: 400;
 }
+.main{
+  /* position:absolute; */
+  /* display:flex; */
+  width:80%;
+  justify-content: center;
+  padding-top:60px;
+  margin-left:200px;
+  margin-right:200px;
+}
 .header {
   display: flex;
   justify-content: space-evenly;
   background-color: pink;
+  position: fixed;
+  width:100%;
 }
 .header div {
   padding: 20px 10px;
