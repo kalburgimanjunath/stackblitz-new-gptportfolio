@@ -29,6 +29,7 @@ body {
 }
 .cards {
   display: flex;
+  text-align: center;
   justify-content: space-between;
   overflow-x: auto;
 }
